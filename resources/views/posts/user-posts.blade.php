@@ -11,33 +11,35 @@
             </div>
         @endif
         @if ($posts->count() > 0)
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">Status</th>
-                        <th scope="col">Category</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Created</th>
-                        <th scope="col" colspan="2">View</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach ($posts as $post)
+            <div class="responsive-table">
+                <table class="table table-hover">
+                    <thead>
                         <tr>
-                            <td>{{ $post->isClosed ? 'Closed' : 'Open' }}</td>
-                            <td>{{ $post->category }}</td>
-                            <td>{{ $post->title }}</td>
-                            <td>{{ $post->created_at }}</td>
-                            <td>
-                                <div class="btn-group" role="group">
-                                    <a href="{{ route('post', ['id' => $post->id]) }}" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">View</a>
-                                    <a href="{{ route('messages', ['id' => $post->id]) }}" class="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">Messages</a>
-                                </div>  
-                            </td>
+                            <th scope="col">Status</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Created</th>
+                            <th scope="col" colspan="2">View</th>
                         </tr>
-                    @endforeach
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        @foreach ($posts as $post)
+                            <tr>
+                                <td>{{ $post->isClosed ? 'Closed' : 'Open' }}</td>
+                                <td>{{ $post->category }}</td>
+                                <td>{{ $post->title }}</td>
+                                <td>{{ $post->created_at }}</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <a href="{{ route('post', ['id' => $post->id]) }}" class="btn btn-outline-primary btn-sm" role="button" aria-pressed="true">View</a>
+                                        <a href="{{ route('messages', ['id' => $post->id]) }}" class="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">Messages</a>
+                                    </div>  
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+                </table>
+            </div>
             <div class="d-flex justify-content-center">
                 {{ $posts->links() }}
             </div>
