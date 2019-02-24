@@ -26,8 +26,8 @@
             <form action="{{ route('message.store', ['id' => $id]) }}" method="POST">
                 {{ csrf_field() }}
                 <div class="form-group row chat-input">
-                    <input type="text" name="body" class="form-control col-sm-10" autocomplete="off" placeholder="Message..">
-                    <button class="btn btn-primary col-sm-2" type="submit">Send</button>
+                    <input type="text" name="body" class="form-control col-10" autocomplete="off" placeholder="Message..">
+                    <button class="btn btn-primary col-2" type="submit">Send</button>
                 </div>
             </form>
         </div>

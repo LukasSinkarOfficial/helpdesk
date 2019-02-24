@@ -1,7 +1,7 @@
 @extends('main')
 
 @section('content')
-    <div class="container">
+    <div class="container" style="overflow: hidden">
         @if (session('alert'))
             <div class="alert alert-success">
                 {{ session('alert') }}
