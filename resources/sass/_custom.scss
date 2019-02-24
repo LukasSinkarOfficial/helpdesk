@@ -28,8 +28,6 @@
     opacity: 0.4;
 }
 
-@include media-breakpoint-up(md) {
-    .responsive-table {
-        overflow-x: scroll;
-    }
+.responsive-table {
+    overflow-x: auto;
 }
