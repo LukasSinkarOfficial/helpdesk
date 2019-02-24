@@ -20,7 +20,7 @@ class LoginController extends Controller
 
     public function index()
     {
-        return view('main');
+        return view('home');
     }
 
     public function showLoginForm()

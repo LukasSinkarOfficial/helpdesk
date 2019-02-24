@@ -20,6 +20,11 @@
                             <th scope="col">Title</th>
                             <th scope="col">Created</th>
                             <th scope="col" colspan="2">View</th>
+                            <th scope="col">test</th>
+                            <th scope="col">test</th>
+                            <th scope="col">test</th>
+                            <th scope="col">test</th>
+                            <th scope="col">test</th>
                         </tr>
                     </thead>
                     <tbody>
