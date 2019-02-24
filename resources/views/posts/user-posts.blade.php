@@ -19,7 +19,7 @@
                             <th scope="col">Category</th>
                             <th scope="col">Title</th>
                             <th scope="col">Created</th>
-                            <th scope="col" colspan="2">View</th>
+                            <th scope="col">View</th>
                             <th scope="col">test</th>
                             <th scope="col">test</th>
                             <th scope="col">test</th>
@@ -40,6 +40,11 @@
                                         <a href="{{ route('messages', ['id' => $post->id]) }}" class="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">Messages</a>
                                     </div>  
                                 </td>
+                                <td>test</td>
+                                <td>test</td>
+                                <td>test</td>
+                                <td>test</td>
+                                <td>test</td>
                             </tr>
                         @endforeach
                     </tbody>
