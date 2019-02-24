@@ -1,5 +1,5 @@
-# Help Desk
+#Help Desk#
 
-###Stack used: Laravel/PostgreSQL/SASS
+###Stack used: Laravel/PostgreSQL/SASS###
 
-###[Live demo](https://www.lukassinkar.com)
+###[Live demo](https://www.lukassinkar.com)###
