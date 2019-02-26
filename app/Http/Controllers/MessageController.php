@@ -22,7 +22,7 @@ class MessageController extends Controller
         $this->authorize('view', $post);
         $users = User::all();
         $employees = Employee::all();
-        $messages = Message::all();
+        $messages = Message::where('post_id', $post->id)->get();
 
         return view('messages.index', compact('users', 'employees', 'id', 'messages'));
     }

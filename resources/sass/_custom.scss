@@ -10,24 +10,6 @@
     margin-bottom: 92px;
 }
 
-.landing {
-    margin-top: -1.5rem;
-    position: relative;
-    background: #000;
-    height: calc(100vh - 55px);
-}
-
-.bg {
-    position: absolute;
-    background: url(../images/bg.jpg) no-repeat center;
-    background-size: cover;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.4;
-}
-
 .responsive-table {
     overflow-x: auto;
 }
