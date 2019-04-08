@@ -4,7 +4,7 @@
 
 ## Built With
 
-* Laravl
+* Laravel
 * SASS
 * PostgreSQL
 
