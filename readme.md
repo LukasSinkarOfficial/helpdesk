@@ -8,4 +8,4 @@
 * SASS
 * PostgreSQL
 
-[Demo](http://help-desk-test.herokuapp.com/ "Demo")
+[Demo](http://help-desk-test.herokuapp.com/)
