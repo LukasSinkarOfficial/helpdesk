@@ -10,4 +10,4 @@
 
 [Demo](http://help-desk-test.herokuapp.com/)
 
-![image](https://www.dropbox.com/s/mvlza93664s97e6/helpdesk.PNG?dl=0)
+![image](https://drive.google.com/drive/u/1/folders/1E4f0Z-SvL62hKVXkEoQNMkiXcu0jwUso)
