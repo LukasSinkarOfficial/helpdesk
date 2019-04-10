@@ -10,4 +10,4 @@
 
 [Demo](http://help-desk-test.herokuapp.com/)
 
-<img src="https://www.dropbox.com/s/27ya9x5ltz95mtb/helpdesk.PNG?dl=1">
+<img src="https://www.dropbox.com/s/27ya9x5ltz95mtb/helpdesk.PNG">
