@@ -10,4 +10,4 @@
 
 [Demo](http://help-desk-test.herokuapp.com/)
 
-![image](helpdesk.PNG)
+<img src="helpdesk.PNG">
