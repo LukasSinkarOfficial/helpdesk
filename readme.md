@@ -1,13 +1,15 @@
-# HelpDesk
+<h1>HelpDesk</h1>
 
-System made for client support. Frontend is Blade templates and Bootstrap. Backend Laravel with PostgreSQL Databse. Uses Default Laravel authentication. System has 2 guards: user and eployee, employee can also be admin.
+<p>System made for client support. Frontend is Blade templates and Bootstrap. Backend Laravel with PostgreSQL Databse. Uses Default Laravel authentication. System has 2 guards: user and eployee, employee can also be admin.</p>
 
-## Built With
+<h2>Built With</h2>
 
-* Laravel
-* SASS
-* PostgreSQL
+<ul>
+    <li>Laravel</li>
+    <li>SASS</li>
+    <li>PostgreSQL</li>
+</ul>
 
-[Demo](http://help-desk-test.herokuapp.com/)
+<a href="http://help-desk-test.herokuapp.com/">Demo</a>
 
 <img src="https://i.postimg.cc/j2JqjLFp/helpdesk.png">
