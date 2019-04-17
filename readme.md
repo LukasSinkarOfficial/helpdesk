@@ -1,8 +1,8 @@
 # HelpDesk
 
-'HelpDesk' is a platform where a company can provide support for their clients.
+Sistema skirta įmonės klientų palaikymui ir jų problemų sprendimui. Frontend naudoja Blade šablonus ir Bootstrap. Backend Laravel. Naudoja default laravel autentifikavima.
 
-## Built With
+## Stack
 
 * Laravel
 * SASS
