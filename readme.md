@@ -10,6 +10,6 @@
     <li>PostgreSQL</li>
 </ul>
 
-<a href="http://help-desk-test.herokuapp.com/">Demo</a>
+<a href="http://help-desk-test.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a>
 
 <img src="https://i.postimg.cc/j2JqjLFp/helpdesk.png">
